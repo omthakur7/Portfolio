@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem Zumbale - Portfolio</title>
+    <link rel="stylesheet" href="experience.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Animation styles */
+        .prem-content, .prem-image img {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        
+        .prem-image img {
+            animation-delay: 0.5s;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="experience.html">Experience</a></li>
+        </ul>
+    </nav>
+    <section class="prem">
+        <div class="prem-content">
+            <h1>Past Work</h1>
+            <p>Ar/Vr: <br>
+                Description:
+                Created an immersive AR/VR experience to help reduce pain and stress in patients using calming visuals, soothing sounds, and interactive elements.
+                
+                Features:
+                
+                Relaxing 3D environments (nature, sky, etc.)
+                
+                Guided breathing and meditation in AR
+                
+                Interactive elements for distraction
+                
+                Calming background music and sound effects
+                
+                Tools Used:
+                Unity, Meta Quest, AR Foundation
+                
+                Goal:
+                To provide a non-drug method to ease pain and promote relaxation.
+                
+                            </p>
+           
+            </h2>
+        </div>
+        <div class="prem-image">
+            <img src="IMG_1413.JPG" alt="Prem Zumble">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+    </section>
+</body>
+</html>
+
